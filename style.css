@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+ background-image: url(img.jpg);
+}
+
+
+.timer-container{
+      width: 400px;
+      height: 350px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #D6D6F2;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #585875;
+    border: 2px solid #585875;}
+
+.timer-container h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:monospace;
+ }
+
+.button-grp {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    color:#F7D1E8;
+    background-color: #9898C1;   
+    border-radius: 45px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+#session{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 30px;
+    font-size: 50px;
+    background-color: #F7D1E8;   
+    color: #585875;
+    margin-bottom: 20px;
+
+}
+
+.timer {
+    width: 360px;
+    padding: 20px;
+    height:70px;
+    font-weight: bold;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #F7D1E8;   
+    color:#585875;
+     border-radius: 35px;
+    border: 2px solid #585875;  
+    box-shadow: 
+        0 10px 25px rgba(0,0,0,0.25),
+        inset 0 2px 5px rgba(255,255,255,0.3);
+
+    margin: 20px auto;
+}
+
+.timer input {
+    width: 90px;
+    height: 60px;
+
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+
+    background-color: #fbe2f1;   
+    border-radius: 20px;
+    border: 2px solid #4A6075;  
+
+    outline: none;
+    transition: all 0.3s ease;
+}
+.timer input:focus {
+    border-color: #4A6075;
+    box-shadow: 0 0 10px rgba(79,111,108,0.5);
+}
+
+

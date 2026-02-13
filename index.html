@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Pomodoro Timer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+
+        <div class="timer-container">
+<div class="timer">
+    <label>
+        min:
+        <input type="number" id="workTime" value="25" min="1">
+    </label>
+</div>
+            <button id="session">session</button>
+
+            <div class="button-grp">
+            <button id="reset">🗘</button>
+            <button id="start">▶︎</button>
+            </div>
+        </div>
+            <script src="script.js"></script>
+    
+    </body>
+</html>
